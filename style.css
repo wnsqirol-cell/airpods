@@ -1,0 +1,183 @@
+/* Maxsus Kodlar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+/* Heaader and Nav */
+.header {
+    position: relative;
+
+}
+
+.header_nav {
+    background-color: #151515eb;
+    padding: 5px;
+}
+
+.header_nav_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 200px;
+    padding-left: 190px;
+}
+
+.header_nav_box_photo {
+    width: 150px;
+    height: 70px;
+    cursor: progress;
+}
+
+.header_nav_box_photo-and-ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header_nav_box_ul {
+    color: #fff;
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header_nav_box_logosbox {
+    display: flex;
+    gap: 15px;
+}
+
+.search {
+    color: #fff;
+}
+
+.shbag {
+    color: #fff;
+}
+
+.header_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    background-image: url(black_pods.jpg);
+    background-size: cover;
+    background-position: inherit;
+    background: linear-gradient(0.3);
+}
+
+.header_div_h1 {
+    font-size: 80px;
+    color: #fff;
+}
+
+.header_div_text-and-logo_a {
+    font-weight: lighter;
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 10px 5px 10px #fff;
+}
+
+.header_div_text-and-logo_a:hover {
+    color: white;
+    background-color: #000;
+    cursor: pointer;
+    box-shadow: 10px 5px 20px lightslategray;
+    transition: 0.6s all ease;
+}
+
+.a_fixed {
+    color: #fff;
+    border: none;
+    background-color: #1b1b1b9f;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 15px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+/* -------------------------------------------------- */
+
+/* Section */
+.scn {
+    background-color: #000;
+}
+/* ___1___ */
+.helper_1 {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding: 5px;
+    background: #000;
+    justify-content: center;
+    padding-top: 120px;
+    justify-self: center;
+    gap: 50px;
+}
+.helper_1_p {
+    color: white;
+    width: 550px;
+    font-weight: lighter;
+}
+.helper_1_pods1 {
+    width: 500px;
+}
+/* ---------------------------------------------- */
+
+/* ___2___ */
+.helper_2 {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding: 5px;
+    background: #000;
+    justify-content: center;
+    padding-top: 120px;
+    justify-self: center;
+    gap: 50px;
+}
+.helper_2_p {
+    color: white;
+    width: 550px;
+    font-weight: lighter;
+}
+.helper_2_pods2 {
+    width: 500px;
+}
+/* ---------------------------------------------- */
+
+/* ___3___ */
+.helper_3 {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding: 5px;
+    background: #000;
+    justify-content: center;
+    padding-top: 120px;
+    justify-self: center;
+    gap: 60px;
+    width: 1300px;
+}
+.helper_3_p {
+    color: white;
+    width: 550px;
+    font-weight: lighter;
+}
+.helper_3_pods3 {
+    width: 300px;
+}
