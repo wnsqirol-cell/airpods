@@ -115,6 +115,7 @@ ul {
 /* Section */
 .scn {
     background-color: #000;
+    height: 2200px;
 }
 /* ___1___ */
 .helper_1 {
@@ -172,6 +173,7 @@ ul {
     justify-self: center;
     gap: 60px;
     width: 1300px;
+    margin-bottom: 200px;
 }
 .helper_3_p {
     color: white;
@@ -180,4 +182,102 @@ ul {
 }
 .helper_3_pods3 {
     width: 300px;
+}
+
+.for_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 50px;
+}
+.card_1 {
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    line-height: 25px;
+}
+.for_card_btn1 {
+    padding: 4px;
+    background-color: #000;
+    color: white;
+    border-radius: 15px;
+    width: 80px;
+}
+.for_p_btn {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.card_2 {
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    line-height: 25px;
+}
+.for_card_btn2 {
+    padding: 4px;
+    background-color: #000;
+    color: white;
+    border-radius: 15px;
+    width: 80px;
+}
+
+.card_3 {
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    line-height: 25px;
+}
+.for_card_btn3 {
+    padding: 4px;
+    background-color: #000;
+    color: white;
+    border-radius: 15px;
+    width: 80px;
+}
+
+.card_4 {
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    line-height: 25px;
+}
+.for_card_btn4 {
+    padding: 4px;
+    background-color: #000;
+    color: white;
+    border-radius: 15px;
+    width: 80px;
+}
+.footer {
+    background-color: #151515eb;
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.footer_ul_li {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
 }
